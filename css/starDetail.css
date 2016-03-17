@@ -1,0 +1,125 @@
+body{background: #f4f4f4}
+
+/*明星详细页 字体效果*/
+  label{font-family: "宋体";font-size: 12px;color: #888888;} /*一般字体*/
+  .labelbig{font-family: "微软雅黑";font-size: 14px;color: #383838;font-weight: bold;} /*标题字体 特殊颜色#ff4200*/
+  .ft18px{font-size: 18px;}
+  .psblue{color: #007eff}
+/*明星详细页 图片效果*/
+    .psimgsty1{width: 200px;height: 200px;border-radius: 100px;margin-top: -6px;margin-left: -4px} /*头像*/
+    .psimgsty1:hover{opacity: 0.8;}
+    .psimgsty1:hover{opacity: 0.8;
+            -moz-transform: scale(1.02);
+            -moz-transition: all 0.3s ease-in-out 0s;
+            transform: scale(1.02);
+            transition: all 0.3s ease-in-out 0s;
+            -webkit-transform: scale(1.02);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -o-transform: scale(1.02);
+            -o-transition: all 0.3s ease-in-out 0s;}
+    .psimgsty2{width: 125px;height: 90px;} /*代表作品*/
+    .psimgsty2:hover{opacity: 0.8;}
+    .psimgsty3{width: 185px;height: 130px;margin-top: 16px} /*预售商品征集*/
+    .psimgsty3:hover{opacity: 0.8;}
+    .psimgsty4{width: 287px;height: 200px;margin-top: -1px} /*宝贝展示*/
+    .psimgsty4:hover{
+            -moz-transform: scale(0.9);
+            -moz-transition: all 0.3s ease-in-out 0s;
+            transform: scale(0.9);
+            transition: all 0.3s ease-in-out 0s;
+            -webkit-transform: scale(0.9);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -o-transform: scale(0.9);
+            -o-transition: all 0.3s ease-in-out 0s;
+    }
+/*明星详细页 p缩进 输入 点 手等图标效果*/
+  .psuojing{text-indent: 2em;margin-top: 0px;}
+  .psinptsty{width: 65px;height: 23px;background: #007eff;color: #fff;font-family: "宋体";font-size: 12px;border-radius: 10px;margin-left: 5px;outline: none}
+  .psdian{color:#007eff;position: absolute;margin-top:5px;margin-left:-5px}
+  .psshou{color:#007eff;position: absolute;margin-left:5px;margin-top:5px;}
+  .iconsty{
+        animation: iconsty 5s ease-in-out 0s infinite alternate;
+        /* FirefoY: */
+        -moz-animation: iconsty 5s ease-in-out 0s infinite alternate;
+        /* Safari 和 Chrome: */
+        -webkit-animation: iconsty 5s ease-in-out 0s infinite alternate;
+        /* Opera: */
+        -o-animation: iconsty 5s ease-in-out 0s infinite alternate;
+      }
+                @keyframes iconsty
+                {
+                0%   {transform:rotateY(0deg);}
+                50%  {transform:rotateY(180deg);}
+                100% {transform:rotateY(360deg);}
+                }
+
+                @-moz-keyframes iconsty /* Firefox */
+                {
+                0%   {transform:rotateY(0deg);}
+                50%  {transform:rotateY(180deg);}
+                100% {transform:rotateY(360deg);}
+                }
+
+                @-webkit-keyframes iconsty /* Safari 和 Chrome */
+                {
+                0%   {transform:rotateY(0deg);}
+                50%  {transform:rotateY(180deg);}
+                100% {transform:rotateY(360deg);}
+                }
+
+                @-o-keyframes iconsty /* Opera */
+                {
+                0%   {transform:rotateY(0deg);}
+                50%  {transform:rotateY(180deg);}
+                100% {transform:rotateY(360deg);}
+                }
+
+
+/*第一部分 明星个人简介 Personal Profile*/
+  .pFile{width: 100%;height: 350px;margin-top: 86px;background: url(../img/starDetail/file_bg.png) repeat-x;}
+  .pFile .pfcont{width: 1200px;height: 350px;margin: 0 auto;background: url(../img/starDetail/pfc_bg.png) center no-repeat;position: relative;}
+  .pFile .pfcont .pfbox{width: 1180px;height: 188px;margin-top: 72px;position: absolute;padding: 10px 10px}
+  /*介绍*/
+  .pFile .pfcont .pfbox .jieshao{width: 630px;height: 188px;margin-left: 40px;}
+  .pFile .pfcont .pfbox .jieshao .psjianjie{width: 630px;height: 72px;overflow: hidden;}
+  .pFile .pfcont .pfbox .jieshao .alt_fans{border: 1px #007eff solid;color: #007eff;margin-left: 15px;background: #ddd;position: absolute;margin-top: 10px;display: none;}
+  .pFile .pfcont .pfbox .jieshao .alt_goods{border: 1px #007eff solid;color: #007eff;margin-left: 100px;background: #ddd;position: absolute;margin-top: 10px;display: none;}
+  /*作品*/
+  .pFile .pfcont .pfbox .zuoping{width:303px ;height: 188px;border-left: 1px rgba(131, 124, 124, 0.31) solid;margin-left: 10px}
+  .pFile .pfcont .pfbox .zuoping .zptitle{width: 20px;height: 188px;margin-left: 5px}
+  .pFile .pfcont .pfbox .zuoping .pstu{width: 255px;height: 188px;}
+  .pFile .pfcont .pfbox .zuoping .hyp{width: 18px;height: 40px;margin-top: 130px;margin-left: 5px}
+
+/*第二部分 评论征集 Call for comments 180px*/
+  .cComts{width: 1160px;height:180px;overflow: hidden;padding: 10px 20px;margin:0 auto;margin-top: 20px;background: url(../img/starDetail/comt_bg1.png)  no-repeat;}
+  /*左边图*/
+  .cComts .cmLeft{width: 185px;height:180px; }
+  /*右边文字*/
+  .cComts .cmRight{width: 955px;height: 180px;margin-left: 20px;margin-bottom: 10px}
+  .cComts .cmRight .rwenzi{width: 955px;height: 85px;margin-top: 25px;overflow: hidden;}
+  /*隐藏的评论内容部分*/
+  .cComts .comcont{width: 1160px;height: 64px;border: 1px #ddd solid;}
+  .cComts .fabiao{width: 75px;height: 23px;background: #007eff;color: #fff;font-size: 12px;font-family: "微软雅黑";border-radius: 20px;margin-left: 1093px;margin-top: 10px;outline: none;position: absolute;}
+  .cComts ul{width: 900px;height: 180px;margin: 0 auto;margin-top: 30px;}
+  .cComts li{width: 900px;height: 30px;line-height: 30px;overflow: hidden;}
+  .cComts .bluemark{color:#007eff;}
+
+/*第三部分 宝贝展示 Exhibition*/
+  .exHbtion{width: 1216px;height: auto;margin:0 auto;margin-bottom: 25px;overflow: auto;margin-top: 15px;}
+  .exHbtion .exitem{margin: 8px;width: 287px;height: 318px;background: #fff;box-shadow: 1px 1px 10px #D5D4D4;position: relative;}
+  .exHbtion .exitem p{text-indent: 2em;line-height: 15px;height: 15px}
+  .exHbtion .exitem label{color: black}
+  .exHbtion .exitem .buy{width: 80px;height: 70px;position: absolute;margin-top: -65px;margin-left: 206px;background: url(../img/starDetail/itembg.png)#fff bottom right no-repeat;outline: none;}
+  .exHbtion .exitem .buy:hover{
+    opacity: 0.8;
+        -moz-transform: scale(1.01);
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transform: scale(1.01);
+        transition: all 0.3s ease-in-out 0s;
+        -webkit-transform: scale(1.01);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -o-transform: scale(1.01);
+        -o-transition: all 0.3s ease-in-out 0s;
+      }
+  .exHbtion .ps_clkmore{float: left;width: 1216px;height: 40px;text-align: center;}
+  .exHbtion .ps_clkmore .cm{width: 148px;height: 40px;background: url(../img/starDetail/clkmore.png) center;outline: none;color:#fff;}

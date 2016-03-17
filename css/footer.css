@@ -1,0 +1,8 @@
+/*layout05 公司版权*/
+	.CopyRight{width: 100%;height: 184px;background: #dbf0ff;}
+	.CopyRight .box{width: 1200px;height: 184px;text-align: center;margin: 0 auto;}
+	.CopyRight .box .kongge{width: 1px;height: 50px;}
+	.CopyRight .box p{color: #dbf0ff;font-size: 12px;}
+	.CopyRight .box label{font-family: "宋体";color: #007eff;font-size: 12px;}
+	.CopyRight .box span{font-family: "宋体";color: rgba(0, 153, 255, 0.73);font-size: 12px;}
+	.CopyRight .box img:hover{opacity: 0.80;}

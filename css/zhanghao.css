@@ -1,0 +1,16 @@
+.zhmain{width: 1200px;height: 600px;margin: 0 auto;margin-top: 116px;margin-bottom: 36px;box-shadow: 1px 1px 10px #D5D4D4;}
+.zhmain .zhmainbox{width: 500px;height: 500px;margin: 0 auto;}
+.zhmain .zhmainbox .hyn{width: 500px;height: 70px;text-align: center;line-height: 100px}
+.zhmain .zhmainbox .hyn label{font-family: "黑体";font-size: 26px;color: #007eff;}
+.zhmain .zhmainbox .wsxx{width: 500px;height: 40px;line-height: 40px;text-align: center;}
+.zhmain .zhmainbox .wsxx label{font-family: "黑体";font-size: 14px;color: #007eff;}
+
+.zhmain .zhmainbox .zhsty{width: 240px;height: 40px;margin: 0 auto;border: 1px #007eff solid}
+.zhmain .zhmainbox .zhsty input{width: 120px;height: 40px; background: #fff;color: #007eff}
+#newzh{background: #007eff;color: #fff}
+.zhmain .zhmainbox .zhcont1{width: 240px;height: 300px;margin: 0 auto;margin-top: 10px}
+.zhmain .zhmainbox .zhcont1 input{width: 240px;height: 30px; background: #fff;color: #007eff;border: 1px #B0B0B5 solid;border-radius: 5px}
+.zhmain .zhmainbox .zhcont1sty{width: 240px;height: 40px;line-height: 40px;color: #808080;font-size: 14px;}
+.zhmain .zhmainbox .zhcont2{width: 240px;height: 300px;margin: 0 auto;margin-top: 10px}
+.zhmain .zhmainbox .zhcont2 input{width: 240px;height: 30px; background: #fff;color: #007eff;border: 1px #B0B0B5 solid;border-radius: 5px}
+.zhmain .zhmainbox .zhcont2sty{width: 240px;height: 40px;line-height: 40px;color: #808080;font-size: 14px;}

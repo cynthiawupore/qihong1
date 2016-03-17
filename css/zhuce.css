@@ -1,0 +1,59 @@
+body{background: #f4f4f4}
+/*layout02 注册窗体*/
+.LoginBox{width: 1200px;height: 445px;margin: 0 auto;margin-bottom: 40px;box-shadow: 1px 1px 10px #D5D4D4;}
+.LoginBox .LoginCont{width: 1200px;height:455px;background: #fff;margin-top: 120px;}
+
+.LoginBox .zhuce{width: 600px;height: 490px;background: url(../img/zhuce/zhuce_logo.png) 160px 40px no-repeat;}
+.LoginBox .zhuce .main{width: 510px;height: 320px;margin-left: 93px;margin-top:96px; }
+
+.LoginBox .zhuce .main .Mleft{width: 65px;height: 320px;text-align: right;}
+.LoginBox .zhuce .main .Mleft .Hsty{font-family: "宋体";font-size: 12px;color: #808080;width: 65px;height: 44px;line-height: 44px;text-align: right;}
+
+.LoginBox .zhuce .main .Mcenter{width: 210px;height: 320px;}
+.LoginBox .zhuce .main .Mcenter .Hsty{font-family: "宋体";font-size: 12px;color: #808080;width: 198px;height: 44px;line-height: 44px;margin-left: 5px;}
+.LoginBox .zhuce .main .Mcenter .Hsty .yanzhen{width: 95px;}
+.LoginBox .zhuce .main .Mcenter .Hsty .yanzhengma{width: 95px;margin-left: 3px;height:27px;border: 1px #ddd solid}
+.LoginBox .zhuce .main .Mcenter .Hsty input{width: 193px;height: 27px;border: 1px #cfcfcf solid}
+.LoginBox .zhuce .main .Mcenter .Hsty .chk{width: 13px;height: 13px;}
+.LoginBox .zhuce .main .Mcenter .Hsty .btn_zhuce{background: url(../img/zhuce/btn_zhuce.png);width: 99px;height: 32px;margin-left: 45px;}
+
+.LoginBox .zhuce .main .Mright{width: 235px;height: 320px;}
+.LoginBox .zhuce .main .Mright .Hsty{font-family: "宋体";font-size: 12px;color: #808080;width: 250px;height: 44px;line-height: 44px;margin-left: 5px;}
+.LoginBox .zhuce .main .Mright .Hsty span{color: red}
+
+
+.LoginBox .diqiu{width: 600px;height: 490px;background: url(../img/zhuce/earth_bg.png);}
+.LoginBox .diqiu img:hover{
+    -webkit-animation:tada 1s .2s ease both;
+    			-moz-animation:tada 1s .2s ease both;}
+    			@-webkit-keyframes tada{
+    			0%{-webkit-transform:scale(1)}
+    			10%,20%{-webkit-transform:scale(0.9) rotate(-3deg)}
+    			30%,50%,70%,90%{-webkit-transform:scale(1.1) rotate(3deg)}
+    			40%,60%,80%{-webkit-transform:scale(1.1) rotate(-3deg)}
+    			100%{-webkit-transform:scale(1) rotate(0)}
+    			}
+    			@keyframes tada{
+    			0%{transform:scale(1)}
+    			10%,20%{transform:scale(0.9) rotate(-3deg)}
+    			30%,50%,70%,90%{transform:scale(1.1) rotate(3deg)}
+    			40%,60%,80%{transform:scale(1.1) rotate(-3deg)}
+    			100%{transform:scale(1) rotate(0)}
+    			}
+    			@-moz-keyframes tada{
+    			0%{-moz-transform:scale(1)}
+    			10%,20%{-moz-transform:scale(0.9) rotate(-3deg)}
+    			30%,50%,70%,90%{-moz-transform:scale(1.1) rotate(3deg)}
+    			40%,60%,80%{-moz-transform:scale(1.1) rotate(-3deg)}
+    			100%{-moz-transform:scale(1) rotate(0)}
+}
+
+
+
+                      
+.LoginBox .diqiu .kimg1{position: absolute;margin-left: 75px;margin-top: 65px;}
+.LoginBox .diqiu .kimg2{position: absolute;margin-left: 65px;margin-top: 200px;}
+.LoginBox .diqiu .kimg3{position: absolute;margin-left: 130px;margin-top: 352px;}
+.LoginBox .diqiu .kimg4{position: absolute;margin-left: 380px;margin-top: 238px;}
+.LoginBox .diqiu .kimg5{position: absolute;margin-left: 385px;margin-top: 158px;}
+.LoginBox .diqiu .kimg6{position: absolute;margin-left: 120px;margin-top: 228px;}

@@ -1,0 +1,30 @@
+body{background:#f4f4f4 ;}
+
+/*layout02 主体部分 明星列表页*/
+
+   /*头部选择*/
+		.starsList{width: 1250px;height: auto;margin: 0 auto;margin-top: 110px;margin-bottom: 50px}
+		.starsList .sAll{width: 1200px;height: 52px;background: url(../img/starsList/sAll_bg.png)no-repeat;margin-left: 25px}
+		.starsList .sAll a{font-family: "微软雅黑";font-size: 16.71px;color:#888888;}
+/*		.starsList .sAll a:hover{color: #007eff}*/
+		.starsList .sAll .zimu{margin-top: 28px;margin-left: 240px;position: absolute;}
+		.starsList .sAll .zimu li{float: left;width: 20px;text-align: center;font-family: "微软雅黑";font-size: 16.71px;color:#888888;cursor: pointer;}
+		.starsList .sAll .zimu li li:hover{color: #007eff}
+   /*列表里元素结构*/
+		.starsList .slist{width: 1250px;height:auto;overflow: hidden;}
+		.starsList .slist .sitem{width: 200px;height: 230px;text-align: center;float: left;margin-left: 25px;margin-right: 25px;margin-top: 40px}
+		.starsList .slist .sitem a{font-family: "微软雅黑";font-size: 14px;font-weight: bold;color: #888888;}
+		.starsList .slist .sitem img:hover{opacity: 0.8;
+				-moz-transform: scale(1.02);
+				-moz-transition: all 0.3s ease-in-out 0s;
+				transform: scale(1.02);
+				transition: all 0.3s ease-in-out 0s;
+				-webkit-transform: scale(1.02);
+				-webkit-transition: all 0.3s ease-in-out 0s;
+				-o-transform: scale(1.02);
+				-o-transition: all 0.3s ease-in-out 0s;}
+   /*每个字母对应的box的结构*/
+		.starsList .slist .main{width: 1250px;height: auto;}
+		.starsList .slist .main .listbtn{width: 1200px;height: 40px;margin: 0 auto;text-align: center;margin-top: 20px}
+		.starsList .slist .main .listbtn input{width: 148px;height: 40px;outline: none;cursor: pointer;background: url(../img/starsList/clkmore.png) center;}
+

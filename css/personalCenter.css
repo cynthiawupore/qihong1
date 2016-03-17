@@ -1,0 +1,72 @@
+body{background: #f4f4f4}
+.f_r{float: right;}
+/*layout02 个人信息主体部分*/
+.pcMain{box-shadow: 1px 1px 10px #D5D4D4;width: 1060px;min-height: 400px;height: auto;margin: 0 auto;margin-top: 110px;margin-bottom: 25px;padding: 45px 70px;background: #fff;overflow: auto;}
+	/*左侧栏*/
+	  .pcMain .pcLeft{width: 196px;height: auto;}
+	  .pcMain .pcLeft .sidesty{width: 196px;margin-top: 10px;height: 40px;line-height: 40px;text-align: center;background: #f4f4f4;font-family: "微软雅黑";font-size: 14px;color: #007eff;font-weight: bold;}      
+	          .pcMain .pcLeft .banner{background: #fff}
+	       /*个人信息 Personal Information*/
+	          .pcMain .pcLeft .infor{background: url(../img/personalCenter/side_bg.png) #f4f4f4 left no-repeat}
+	       /*修改密码 Change Password*/
+	          .pcMain .pcLeft .psw{} 
+	       /*我的订单 My Order*/
+	          .pcMain .pcLeft .ord{}
+	       /*收货地址 shipping address*/
+	          .pcMain .pcLeft .adds{}
+	/*右侧内容区*/
+	  .pcMain .pcRight{width: 814px;height: auto;margin-left: 50px;margin-top: 45px;}
+	  .pcMain .pcRight .contsty{width: 814px;height: auto;}
+	        /*个人信息 内容*/
+			   .pcMain .pcRight .inforC{width: 814px;height: auto;}
+			   .pcMain .pcRight .inforC label{font-size: 12px;font-family: "宋体";color: #888888;}
+			   .pcMain .pcRight .inforC span{font-family: "微软雅黑";font-size: 14px;font-weight: bold;color: #007eff}
+			   .pcMain .pcRight .inforC .mystars{width: 814px;height: auto;}
+			   .pcMain .pcRight .inforC .mystars li{float: left;width: 100px;height: 120px;text-align: center;margin: 16px 16px}
+			   .pcMain .pcRight .inforC .mystars img{width: 100px;height: 100px;}
+			   .pcMain .pcRight .inforC .mystars img:hover{
+                         opacity: 0.8;
+						-moz-transform: scale(1.02);
+						-moz-transition: all 0.3s ease-in-out 0s;
+						transform: scale(1.02);
+						transition: all 0.3s ease-in-out 0s;
+						-webkit-transform: scale(1.02);
+						-webkit-transition: all 0.3s ease-in-out 0s;
+						-o-transform: scale(1.02);
+						-o-transition: all 0.3s ease-in-out 0s;
+
+			   }
+			/*修改密码 内容*/
+			   .pcMain .pcRight .pswC{width: 814px;height: auto;}
+			   .pcMain .pcRight .pswC .mima{width: 253px;height: auto;margin: 0 auto;}
+			   .pcMain .pcRight .pswC .mima .mimal{width: 60px;height: 30px;text-align: right;line-height: 30px;font-family: "宋体";font-size: 12px;color: #888888;}
+			   .pcMain .pcRight .pswC .mima .mimar{width: 190px;height: 30px;line-height: 30px}
+			   .pcMain .pcRight .pswC .mima .mimar input{width: 190px;height: 23px;border: 1px #cfcfcf solid;}
+			   .pcMain .pcRight .pswC .mima .qd{width: 100px;height: 30px;background: #007eff;text-align: center;margin-left: 105px;margin-top: 20px;font-family: "微软雅黑";font-size: 14px;font-weight: bold;color: #fff;}
+			/*我的订单 内容*/
+			   .pcMain .pcRight .ordC{width: 814px;height: auto;}
+			   .pcMain .pcRight .ordC .oditem{width: 794px;height: 70px;padding: 10px 10px;border: 1px #e0e0e0 solid;margin-bottom: 10px}
+			   .pcMain .pcRight .ordC .oditem img{height: 70px;}
+			   .pcMain .pcRight .ordC .oditem li{float: left;}
+			   .pcMain .pcRight .ordC .oditem p{line-height: 10px}
+			   .pcMain .pcRight .ordC .oditem label{font-size: 12px;font-family: "宋体";color: #888888;}
+			   .pcMain .pcRight .ordC .oditem span{font-family: "微软雅黑";font-size: 14px;color: #676767;font-weight: bold;}
+			   .pcMain .pcRight .ordC .oditem .li_1{width: 120px}
+			   .pcMain .pcRight .ordC .oditem .li_2{width: 202px;margin-top: -15px}
+			   .pcMain .pcRight .ordC .oditem .li_3{width: 210px;margin-top: -15px}
+			   .pcMain .pcRight .ordC .oditem .li_4{width: 188px;margin-top: 15px}
+			   .pcMain .pcRight .ordC .oditem .li_5{margin-top: 15px}
+			/*收货地址 内容*/
+			   .pcMain .pcRight .addsC{width: 814px;height: auto;}
+			   .pcMain .pcRight .addsC label{font-size: 12px;font-family: "宋体";color: #676767;}
+			   .pcMain .pcRight .addsC p{width: 814px;position: relative;}
+			   .pcMain .pcRight .addsC .oldadds{width: 814px;border-bottom: 2px #cccccc solid;}
+
+			   .pcMain .pcRight .addsC .newadds{width: 814px;margin-top: 20px;height: auto;}
+			   .pcMain .pcRight .addsC .newadds ul{height: 40px}
+			   .pcMain .pcRight .addsC .newadds li{float: left;height: 40px;}
+			   .pcMain .pcRight .addsC .newadds label{color: #888888;}
+			   .pcMain .pcRight .addsC .newadds .kd{width: 814px;height: 40px}
+			   .pcMain .pcRight .addsC .newadds .inptsty1{width: 140px;height: 23px;border: 1px #cfcfcf solid;}
+			   .pcMain .pcRight .addsC .newadds .inptsty2{width: 440px;height: 23px;border: 1px #cfcfcf solid;}
+			   .pcMain .pcRight .addsC .newadds .tjdz{width: 100px;height: 30px;background: #007eff;text-align: center;margin-top: 20px;font-family: "微软雅黑";font-size: 14px;font-weight: bold;color: #fff;}

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> 起哄网_明星专属新品发布网站</title>
+	<meta name="keywords" content="起哄,明星,明星店铺,独家,预售,低价">
+    <meta name="description" content="专业的为明星打造的店铺，全部商品独家低价首发，为粉丝打造和明星沟通交流的地方。">
+	<link rel="stylesheet" href="css/top.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/zhuce.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<!-- layout01 起哄导航 搜索 -->
+		<div class="Header">
+			<div class="HeaderBox">
+				<div class="Nav f_l">
+				<a href="index.html"><img src="img/qx_logo.png" alt="" ></a>
+				<a href="index.html"><img src="img/top_index.png" alt=""></a>
+				<a href=""><img src="img/top_starlist.png" alt=""></a>
+				<a href=""><img src="img/top_goodslist.png" alt=""></a>	
+			</div>
+			<div class="Search f_l">
+				<div class="se_box">
+					<div class="seop f_l">
+					    <div class="baobei f_l"></div>
+					    <div class="mingxing f_l"></div>
+						<div class="btn_yuan"></div>
+					</div>
+					<input type="text" placeholder="大家都在搜什么什么" class="se f_l">
+					<input type="button" class="sebtn f_l">
+				</div>
+				<div class="hotbox">
+					<a href="">刘诗诗</a>
+					<a href="">钥匙扣</a>
+					<a href="">签名私照</a>
+					<a href="">签名私照 </a>
+				</div>
+				
+			</div>
+			<div class="Login f_l">
+				<input type="button" class="btn_signUp">
+				<input type="button" class="btn_login" onclick = "document.getElementById('LoginBox').style.display='block';document.getElementById('fade').style.display='block'">
+			</div>
+			</div>
+		</div>
+<!-- layout02 注册窗体 -->
+     <div class="LoginBox">
+     	<div class="LoginCont">
+     	    <div class="zhuce f_l" style="background: url(img/zhuce/denglu_logo.png) 160px 40px no-repeat">
+     	    	<div class="main">
+     	    		<div class="Mleft f_l">
+     	    		    <div class="Hsty">通行证:</div>
+     	    		    <div class="Hsty">登录密码:</div>
+      	    		</div>
+     	    		<div class="Mcenter f_l">
+     	    			<form action="">
+     	    				<div class="Hsty"><input type="text" value=""  required Pattern="^(?=.*\d)(?=.*[a-z])[a-z\d]{6,20}$"></div>
+	     	    		    <div class="Hsty"><input type="password" value=""  required Pattern="^(?=.*\d)(?=.*[a-z])[a-zA-Z\d]{6,20}$"></div>
+	     	    		   
+	     	    		    <div class="Hsty"><input style="background: url(img/zhuce/btn_denglu.png);margin-top: 20px;" type="submit" value="" class="btn_zhuce"></div>
+     	    			</form>
+     	    		</div>
+     	    		<div class="Mright f_l">
+     	    		</div>
+     	    	</div>
+     	    </div>
+     	    <div class="diqiu f_l">
+     	    	<img src="img/zhuce/zgdy.png" alt="" class="kimg1">
+     	    	<img src="img/zhuce/mxrz.png" alt="" class="kimg2">
+     	    	<img src="img/zhuce/psbj.png" alt="" class="kimg3">
+     	    	<img src="img/zhuce/qwzd.png" alt="" class="kimg4">
+     	    	<img src="img/zhuce/yun1.png" alt="" class="kimg5">
+     	    	<img src="img/zhuce/yun2.png" alt="" class="kimg6">
+     	    </div>
+        </div>
+     </div>
+     
+<!-- layout05 公司版权 -->
+			<div class="CopyRight">
+				<div class="box">
+					<div class="kongge"></div>
+					<p>
+						<a href=""><label for="">上海寻星网络科技有限公司 | </label></a>
+						<a href=""><label for="">联系客服 | </label></a>
+						<a href=""><label for="">新手帮助</label></a><br>
+					</p>
+					<span>沪ICP备12023206号 沪网文(2013）0585-060号</span><br><br>
+					<img src="img/bottom_link_1.jpg" alt="">
+					<img src="img/bottom_link_2.jpg" alt="">
+					<img src="img/bottom_link_3.jpg" alt="">
+					<img src="img/bottom_link_4.jpg" alt="">
+					<img src="img/bottom_link_5.jpg" alt="">
+					<img src="img/bottom_link_6.jpg" alt="">
+					<img src="img/bottom_link_7.jpg" alt="">
+				</div>
+			</div>
+</body>
+<!-- 导航按钮 -->
+
+<script>
+	$(".mingxing").click(function(){
+	  $(".btn_yuan").css("margin-left","32px");
+	});
+	$(".baobei").click(function(){
+	  $(".btn_yuan").css("margin-left","0px");
+	});
+</script>
+<script type="text/javascript"> 
+	$(function(){
+		var ynum=$(".btn_yuan").css("margin-left");
+		$(".btn_yuan").on('click',function(){
+			var ynum=$(".btn_yuan").css("margin-left");
+			if(ynum=="32px")
+			{
+				$(".btn_yuan").css("margin-left","0px");
+			}
+			if(ynum=="0px")
+			{
+				$(".btn_yuan").css("margin-left","32px");
+			}
+		});
+	})
+</script>
+
+
+
+</html>

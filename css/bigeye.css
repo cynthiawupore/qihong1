@@ -1,0 +1,60 @@
+*{padding:0;margin:0;}
+li{list-style:none;}
+img{border:none;}
+
+
+
+.bigeyes_bg{ height:630px; background:url("../img/layout02_bg.png") center 0 no-repeat; position:relative;margin-top: 40px;}
+
+.bigeyes_prev {background: url("../img/left.png") 0 0 no-repeat;z-index: 9;height: 208px;
+               width:208px; position:absolute;top:190px;left:50%; margin-left:-598px; text-decoration:none;}
+.bigeyes_next{ background: url("../img/right.png") 0 0 no-repeat;z-index: 9;height: 208px;
+               width:208px; position:absolute;top:190px;right:50%; margin-right:-598px; text-decoration:none;}
+
+.bigeyes_wrap{}
+.bigeyes_main{}
+
+.play{width:353px;height:650px;overflow:hidden;position:relative;margin:0 auto;}
+
+.play ul{position:absolute;top:0;left:0;z-index:2;}
+.play ul li{width:353px;height:650px;float:left;}
+.play ul li h2{ line-height:90px; font-size:29.9px; color:rgba(10, 80, 139, 0); margin-top:15px; text-align:center;font-family: "微软雅黑";font-weight: normal;}
+.play ul li h3{ line-height:50px; font-size:35px; color:#fff; text-align:center; padding-top:16px;}
+.play ul li h4{ line-height:64px; font-size:48px; color:#fff; text-align:center;}
+.play ul img{ display:block;}
+
+.prevImg{ display:block; width:208px; position:absolute;top:190px;left:50%; margin-left:-598px; z-index:3; text-decoration:none;}
+.nextImg{ display:block; width:208px; position:absolute;top:190px;right:50%; margin-right:-598px; z-index:3; text-decoration:none;}
+.nextImg img,.prevImg img{ filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;}
+.prevImg h3,.nextImg h3{ line-height:32px; font-size:24px; color:#9ca1b5; text-align:center; padding-top:14px; filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
+.prevImg h4,.nextImg h4{ line-height:40px; font-size:28px; color:#9ca1b5; text-align:center; filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
+
+
+
+.bounce:hover{
+-webkit-animation:bounce 1s .2s ease both;
+-moz-animation:bounce 1s .2s ease both;}
+@-webkit-keyframes bounce{
+0%,20%,50%,80%,100%{-webkit-transform:translateY(0)}
+40%{-webkit-transform:translateY(-30px)}
+60%{-webkit-transform:translateY(-15px)}
+}
+@-moz-keyframes bounce{
+0%,20%,50%,80%,100%{-moz-transform:translateY(0)}
+40%{-moz-transform:translateY(-30px)}
+60%{-moz-transform:translateY(-15px)}
+}
+
+.pulse:hover{
+-webkit-animation:pulse 1s .2s ease both;
+-moz-animation:pulse 1s .2s ease both;}
+@-webkit-keyframes pulse{
+0%{-webkit-transform:scale(1)}
+50%{-webkit-transform:scale(1.1)}
+100%{-webkit-transform:scale(1)}
+}
+@-moz-keyframes pulse{
+0%{-moz-transform:scale(1)}
+50%{-moz-transform:scale(1.1)}
+100%{-moz-transform:scale(1)}
+}

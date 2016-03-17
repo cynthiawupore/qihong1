@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> {商品名字}_{明星名字}_起哄网_明星专属新品发布网站</title>
+	<meta name="keywords" content="起哄,明星,明星店铺,独家,预售,低价">
+    <meta name="description" content="专业的为明星打造的店铺，全部商品独家低价首发，为粉丝打造和明星沟通交流的地方。">
+	<link rel="stylesheet" href="css/top.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/goodsDetail.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<style>
+	canvas {
+	background: #fff;
+	display: block;
+	position: absolute;
+	z-index: 100px;
+	}
+</style>
+<body>
+<!-- layout01 起哄导航 搜索 -->
+		<div class="Header">
+			<div class="HeaderBox">
+				<div class="Nav f_l">
+				<a href="index.html"><img src="img/qx_logo.png" alt="" ></a>
+				<a href="index.html"><img src="img/top_index.png" alt=""></a>
+				<a href=""><img src="img/top_starlist.png" alt=""></a>
+				<a href=""><img src="img/top_goodslist.png" alt=""></a>	
+			</div>
+			<div class="Search f_l">
+				<div class="se_box">
+					<div class="seop f_l">
+					    <div class="baobei f_l"></div>
+					    <div class="mingxing f_l"></div>
+						<div class="btn_yuan"></div>
+					</div>
+					<input type="text" placeholder="大家都在搜什么什么" class="se f_l">
+					<input type="button" class="sebtn f_l">
+				</div>
+				<div class="hotbox">
+					<a href="">刘诗诗</a>
+					<a href="">钥匙扣</a>
+					<a href="">签名私照</a>
+					<a href="">签名私照 </a>
+				</div>
+				
+			</div>
+			<div class="Login f_l">
+				<input type="button" class="btn_signUp" onclick="javascript:top.location.href='zhuce.html'">
+				<input type="button" class="btn_login" onclick = "document.getElementById('LoginBox').style.display='block';document.getElementById('fade').style.display='block'">
+			</div>
+			</div>
+		</div>
+<!-- layout02 商品售卖 -->
+	<div class="gdsell">
+		<!-- 左侧大小图 -->
+		<div class="gdPic f_l">
+			<div class="datu" style="display:block" id="pic1">
+				<img src="img/gdDtail/pic1.png" alt="">
+			</div>
+			<div class="datu" style="display:none" id="pic2">
+				<img src="img/gdDtail/pic2.png" alt="">
+			</div>
+			<div class="datu" style="display:none" id="pic3">
+				<img src="img/gdDtail/pic3.png" alt="">
+			</div>
+			<div class="datu" style="display:none" id="pic4">
+				<img src="img/gdDtail/pic4.png" alt="">
+			</div>
+			<ul id="ChosePic">
+				<li><img idfor="pic1" src="img/gdDtail/pic01.png" alt="" ></li>
+				<li style="margin:0px 15px;"><img idfor="pic2" src="img/gdDtail/pic02.png" alt=""></li>
+				<li><img idfor="pic3" src="img/gdDtail/pic03.png" alt=""></li>
+				<li style="margin-left:14px;"><img idfor="pic4" src="img/gdDtail/pic04.png" alt=""></li>
+			</ul>
+		</div>
+		<!-- 中间文字描述 -->
+		<div class="gdsWord f_l">
+            <!-- 发布 -->
+				<div class="fabu">
+					<img src="img/gdDtail/chenggong.png" alt="">
+					<img src="img/gdDtail/chenggong2.png" alt="" style="display:none">
+					<img src="img/gdDtail/chenggong3.png" alt="" style="display:none">
+					<p><label for="" style="font-weight:bold">我穿过的衣服</label></p>
+					<p><label for="" style="font-size:12px">发布时间：</label>
+						<label for="" style="font-size:12px">2014-08-08 </label>
+						<label for="" style="font-size:12px"> 9:00</label></p>
+					<p><label for="" style="font-size:12px">商品来源：</label>
+						<label for="" style="border:1px #007eff solid;color:#007eff;background:#cfecff;font-size: 12px;padding:5px">明星发布</label>
+						<a href=""><label for="" style="font-size:12px" class="lik">我也要参与</label></a></p>
+					<p><label for="" style="font-size:12px">商品描述：</label>
+						<label for="" style="font-size:12px;color:#888888">上海寻星网络科技有限公司是国内倡导网页游戏精品化以及精细化运营的公司，于 2012 年创立至今，凭借先进的运营 理念</label></p>
+				</div>
+			<!-- 出售 -->
+				<div class="zhushou">
+					<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1302527068&amp;site=qq&amp;menu=yes" target="_blank"><img src="img/gdDtail/mon_pori.gif" alt="" class="zhutiao"></a>
+					
+					<p><label for="" style="font-weight:bold">预售最低份数：500份 </label>
+						<a href="http://wpa.qq.com/msgrd?v=3&uin=1302527068&site=qq&menu=yes" target="_blank"><label for="" style="font-size:12px;margin-left:120px">商品咨询:</label></a></p>
+						<div class="jingdutiao">
+							<div class="mark" id="mark">20%</div>
+							<div class="dicen"> 
+								<div class="prosbar" id="prosbar"></div>
+							</div>
+							<!-- <span id="gdnum">已售400份</span> -->
+						</div>
+					<p>
+					<img src="img/gdDtail/clock.jpg" alt="" style="margin-left:0;margin_top:-5px">
+					    <lable for="" style="font-weight:bold;margin-left:40px;">剩余时间：</lable>
+						<label for="" class="timesty" id="day_show"></label><span>天</span>
+						<label for="" class="timesty" id="hour_show"></label><span>时</span>
+						<label for="" class="timesty" id="minute_show"></label><span>分</span>
+						<label for="" class="timesty" id="second_show"></label><span>秒</span>
+					</p>
+				</div>
+			<!-- 出售价格 -->
+				<div class="yushoujia">
+					<span>预售价：255元 </span><a href=""><label for="" style="font-size:12px;" class="lik">【什么是预售价?】</label></a>
+				</div>
+			<!-- 购买区 -->
+				<div class="gouma">
+	                <div class="item-amount f_l">
+	                	<a style="display:block;width:25px;height:30px;line-height: 30px;" class="f_l" id="aBtn1">-</a>
+	                	<input id="gdnums" type="text" value="1" class="f_l" data-max="" data-now="" autocomplete="off">
+	                	<a style="display:block;width:25px;height:30px;line-height: 30px;" class="f_l" id="aBtn2">+</a>
+	                </div>
+	                <div class="item f_l">
+	                	<label for="">已售：</label><label for="" style="color:red">300</label><label for=""> 份</label>
+	                </div>
+	                <div class="btn_buy f_l">
+	                	<input type="button">
+	                </div> 
+				</div>
+			</div>
+		<!-- 右侧滚动 -->
+		<div class="gdsSlide f_l">
+			<a href=""><img src="img/gdDtail/touxiang.png" alt="" class="touxiang"></a>
+			<div class="gdsBox">
+				<div class="mingzi"><label for="">掌柜：刘诗诗</label></div>
+				<div class="gbox">
+					<iframe id="" style="width: 143px;height: 398px;margin-top: 1px;"src="frm/silde.html" frameborder="0" scrolling="no"></iframe>
+				</div>
+				<!-- <div class="top">
+					<a href="" class="pre" onclick="pretop"></a>
+				</div>
+				<div class="cent">
+					<ul>
+						<li><img src="img/gdDtail/tu1.png" alt=""></li>
+						<li><img src="img/gdDtail/tu2.png" alt=""></li>
+						<li><img src="img/gdDtail/tu3.png" alt=""></li>
+						<li><img src="img/gdDtail/tu1.png" alt=""></li>
+						<li><img src="img/gdDtail/tu2.png" alt=""></li>
+						<li><img src="img/gdDtail/tu3.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="botm">
+					<a href="" class="next" onclick="nextbtm"></a>
+				</div> -->
+			</div>
+		</div>
+	</div>
+<!-- layout03 商品详情 -->
+    <div class="gddtl">
+    	<div class="gbox"></div>
+    </div>
+<!-- layout05 公司版权 -->
+			<div class="CopyRight">
+				<div class="box">
+					<div class="kongge"></div>
+					<p>
+						<a href=""><label for="">上海寻星网络科技有限公司 | </label></a>
+						<a href=""><label for="">联系客服 | </label></a>
+						<a href=""><label for="">新手帮助</label></a><br>
+					</p>
+					<span>沪ICP备12023206号 沪网文(2013）0585-060号</span><br><br>
+					<img src="img/bottom_link_1.jpg" alt="">
+					<img src="img/bottom_link_2.jpg" alt="">
+					<img src="img/bottom_link_3.jpg" alt="">
+					<img src="img/bottom_link_4.jpg" alt="">
+					<img src="img/bottom_link_5.jpg" alt="">
+					<img src="img/bottom_link_6.jpg" alt="">
+					<img src="img/bottom_link_7.jpg" alt="">
+				</div></div>
+</body>
+<!-- 导航按钮 -->
+<script>
+	$(".mingxing").click(function(){
+	  $(".btn_yuan").css("margin-left","32px");
+	});
+	$(".baobei").click(function(){
+	  $(".btn_yuan").css("margin-left","0px");
+	});
+</script>
+<script type="text/javascript"> 
+	$(function(){
+		var ynum=$(".btn_yuan").css("margin-left");
+		$(".btn_yuan").on('click',function(){
+			var ynum=$(".btn_yuan").css("margin-left");
+			if(ynum=="32px")
+			{
+				$(".btn_yuan").css("margin-left","0px");
+			}
+			if(ynum=="0px")
+			{
+				$(".btn_yuan").css("margin-left","32px");
+			}
+		});
+	})
+</script>
+
+<script>
+	// 大图小
+		$("#ChosePic li img").click(function(){
+	        var p=$(this).parents().eq(2);
+			var index=$(this).attr("idfor");
+			p.find(".datu").hide();
+			p.find("#"+index).show();
+		})
+</script>
+// <script>
+// 	// 进度条
+// 	      // gd_num=(x/500)*351   x是已售的份数 gd_num是页面显示长度
+// 	     var x=400
+// 	     var gd_num=(x/500)*351;
+// 	     $("#prosbar").css("width",gd_num)
+// 	     // 修改页面显示信息
+// 	     document.getElementById("gdnum").innerHTML="已售"+x+"份"
+
+
+// 400是出售了多少份；500是假设的总份数；351是进度条总长，不必修改
+     var x=400
+     var gd_num=(x/500)*351;
+     var pre=(x/500)*100
+     $("#prosbar").css("width",gd_num)
+     $("#mark").css("margin-left",gd_num-22)
+     document.getElementById("mark").innerHTML=pre+"%"
+// </script>
+<!-- 购买数量加减 -->
+<script type="text/javascript"> 
+	$(function(){
+		timer(intDiff);
+		var num=$("#gdnums").val();
+		$("#aBtn2").on('click',function(){
+			num++;
+			$("#gdnums").val(num);
+		});
+		$("#aBtn1").on('click',function(){
+			if(num>1)
+			{
+				num--;
+				$("#gdnums").val(num);
+			}
+			else
+			{
+				alert('至少买一件！');
+			}
+
+		});
+	})
+
+</script>
+
+<script type="text/javascript">
+	var intDiff = parseInt(240000);//倒计时总秒数量
+	function timer(intDiff){
+		window.setInterval(function(){
+			var day=0,
+				hour=0,
+				minute=0,
+				second=0;//时间默认值		
+			if(intDiff > 0){
+				day = Math.floor(intDiff / (60 * 60 * 24));
+				hour = Math.floor(intDiff / (60 * 60)) - (day * 24);
+				minute = Math.floor(intDiff / 60) - (day * 24 * 60) - (hour * 60);
+				second = Math.floor(intDiff) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
+			}
+			if (minute <= 9) minute = '0' + minute;
+			if (second <= 9) second = '0' + second;
+			$('#day_show').html(day);
+			$('#hour_show').html('<s id="h"></s>'+hour);
+			$('#minute_show').html('<s></s>'+minute);
+			$('#second_show').html('<s></s>'+second);
+				intDiff--;
+		}, 1000);
+	} 
+</script>
+</html>

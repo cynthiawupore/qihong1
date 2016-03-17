@@ -1,0 +1,42 @@
+/*基本类*/
+body,html,ul,li,a,span,img,input{margin: 0;padding: 0;border: 0}
+.f_l{float: left;}
+ul,li{list-style: none}
+body{background: #fff;}
+a{text-decoration: none;color: none;cursor: pointer;}
+label,img,input{cursor: pointer;}
+
+
+/*layout01 起哄导航 搜索*/
+    /*首页 明星列表 商品列表*/
+	.Header{width:100%;height: 86px;box-shadow: 1px 1px 10px #D5D4D4;position:fixed;top: 0;z-index: 1000;background: #fff}
+	.Header .HeaderBox{width:1200px;height: 86px;margin: 0 auto;}
+	.Header .HeaderBox .Nav{width: 428px;height: 86px;}
+	.Header .HeaderBox .Nav img{margin-top: 10px;}
+	.Header .HeaderBox .Nav .tlink:hover{
+		transform: translate(0px,10px);
+		-webkit-transform: translate(0px,10px);
+		-moz-transform: translate(0px,10px);
+		-o-transform: translate(0px,10px);
+		-ms-transform: translate(0px,10px);
+	}
+    /*搜索框*/
+	.Header .HeaderBox .Search{width: 456px;height: 86px;margin-left: 20px}
+    .Header .HeaderBox .Search .se_box{width: 456px;height: 30px;margin-top: 26px;border: 1px #007eff solid}
+    .Header .HeaderBox .Search .se_box .seop{margin-top: -1px;height: 32px;width: 64px;border: none;color: #888888;background: url(../img/btn_bg.png);position: relative;margin-left: -25px}
+    .Header .HeaderBox .Search .se_box .seop .baobei{width: 32px;height: 30px;position: absolute;}
+    .Header .HeaderBox .Search .se_box .seop .mingxing{width: 32px;height: 30px;position: absolute;margin-left: 32px;}
+    .Header .HeaderBox .Search .se_box .seop .btn_yuan{width: 32px;height: 30px;background: url(../img/btn_yuan.png);;position: absolute;z-index: 1;}
+    .Header .HeaderBox .Search .se_box .se{height: 30px;width: 346px;outline: none;padding-left: 6px;}
+    .Header .HeaderBox .Search .se_box .sebtn{height: 30px;width: 65px;background: url(../img/search.png);}
+    .Header .HeaderBox .Search .hotbox{width: 456px;height: 20px;line-height: 20px;margin-left: 45px;}
+    .Header .HeaderBox .Search .hotbox a{font-size: 12px;font-family: "宋体";color: #888888;}
+    .Header .HeaderBox .Search .hotbox a:hover{color:#007eff;}
+    /*登陆*/
+	.Header .HeaderBox .Login{width: 296px;height: 86px;}
+	.Header .HeaderBox .Login input{width: 82px;height: 36px;margin-top: 25px;float: right;cursor: pointer;border: none;outline: none}
+	.Header .HeaderBox .Login .btn_login{background: url(../img/btn_denglu.png) center no-repeat;}
+	.Header .HeaderBox .Login .btn_signUp{background: url(../img/btn_zhuce.png) 0px -1px no-repeat;}
+
+    .Header .HeaderBox .dq{width: 290px;height: 86px;line-height: 86px;width: 290px;margin-left: 5px}
+	.Header .HeaderBox .Login label{font-family: "宋体";font-size: 12px;color: #808080;}

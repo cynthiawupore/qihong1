@@ -1,0 +1,61 @@
+.ysmain{width: 1200px;height: 730px;margin: 0 auto;box-shadow: 1px 1px 10px #D5D4D4;margin-top: 116px;margin-bottom: 20px}
+
+/*完善信息*/
+	.ysmain .ysbuzou1{width: 1060px;height: 660px;margin-top: 30px;margin-left: 70px;position: absolute;}
+	.ysmain .ysbuzou1 .ystitle1{width: 1060px;height: 50px;background: #eef6ff;border-radius: 20px}
+	.ysmain .ysbuzou1 .ystitle1 .ysitem1{width: 265px;height: 50px;border-radius: 70px;text-align: center;line-height: 50px;font-family: "微软雅黑";font-size: 18px;font-weight: bold;color: #888888;}
+	.ysmain .ysbuzou1 .ystitle1 .ysitemsty1{background: #007eff;color: #fff;}
+    /*1.商品确认*/
+		.ysmain .ysbuzou1 .yscont1{width: 880px;height: 600px;margin-top: 40px;margin-left: 90px;}
+		.ysmain .ysbuzou1 .yscont1 label{font-family: "宋体";font-size: 12px;color: #888888}
+		.ysmain .ysbuzou1 .yscont1 .xxqr{width: 880px;height: 60px}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .inptinfo{width: 880px;height: 60px;margin-top: 10px;line-height: 40px}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .inptinfo li{float: left;height: 60px;line-height: 60px}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .inptinfo .item-amount{width: 100px;height: 28px;background: #ededed;text-align: center;border: 1px #ddd solid;margin-left: 20px;margin-top: 10px}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .inptinfo .item-amount a{color: #403b37;}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .inptinfo .item-amount input{width: 48px;height: 28px;text-align: center;border-left: 1px #ddd solid;border-right: 1px #ddd solid;}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .inptinfo .ysj{margin-left: 20px;}
+
+		/*.ysmain .ysbuzou1 .yscont1 .xxqr .gdsite{color:#000;font-size:14px;font-weight: bold;margin-top: 15px;position: absolute;}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .item-amount{width: 100px;height: 28px;background: #ededed;text-align: center;position: absolute;border: 1px #ddd solid;margin-left: 180px;}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .item-amount input{width: 48px;height: 28px;text-align: center;border-left: 1px #ddd solid;border-right: 1px #ddd solid;}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .item-amount a{color: #403b37;}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .edit{width: 80px;height: 30px;margin-left: 320px;background: #007eff;text-align: center;color: #fff}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .ysj{margin-left: 10px;margin-top: 15px;position: absolute;}
+		.ysmain .ysbuzou1 .yscont1 .xxqr .ysj:hover{color: #007eff}*/
+    
+    /*2.确认收货信息*/
+		.ysmain .ysbuzou1 .yscont1 .xzzffs{width: 880px;height: 200px;margin-top: 45px}
+		.ysmain .ysbuzou1 .yscont1 .xzzffs .xzzffs_l{width: 69px;height: 180px;margin-top: 20px}
+		.ysmain .ysbuzou1 .yscont1 .xzzffs .xzzffs_l .lsty{width: 69px;height: 30px;text-align: right;line-height: 30px;font-family: "宋体";font-size: 12px;color: #888888;margin-top: 20px}
+
+		.ysmain .ysbuzou1 .yscont1 .xzzffs .xzzffs_r{width: 810px;height: 180px;margin-top: 20px}
+		.ysmain .ysbuzou1 .yscont1 .xzzffs .xzzffs_r .lstyz{width: 810px;height: 30px;text-align: right;line-height: 30px;font-family: "宋体";font-size: 12px;color: #888888;margin-top: 20px}
+		.ysmain .ysbuzou1 .yscont1 .xzzffs .xzzffs_r .lstyz .inp_sty{width: 121px;height: 30px;border: 1px #cfcfcf solid}
+    
+        .ysmain .ysbuzou1 .yscont1 .xzzffs .oldlog{width: 800px;height: 180px;margin-top: 15px}
+        .ysmain .ysbuzou1 .yscont1 .xzzffs .oldlog .log_item{width: 800px;height: 40px;line-height: 40px;}
+        .ysmain .ysbuzou1 .yscont1 .xzzffs .oldlog .log_item ul{margin: 0;padding: 0;width: 800px}
+        .ysmain .ysbuzou1 .yscont1 .xzzffs .oldlog .log_item li{float: left;margin: 0;padding: 0}
+        .ysmain .ysbuzou1 .yscont1 .xzzffs .oldlog .log_item label{font-family: "宋体";font-size: 12px;color: #888888;margin-left: 20px}
+    /*3.选择支付方式*/
+		.ysmain .ysbuzou1 .yscont1 .qrshxx{width: 880px;height: 160px;margin-top: 45px}
+		.ysmain .ysbuzou1 .yscont1 .qrshxx label{font-family: "宋体";font-size: 12px;color: #888888;}
+		.ysmain .ysbuzou1 .yscont1 .qrshxx span{color: #ff5400;font-size: 24px;font-family: "微软雅黑";font-weight: bold;position: absolute;margin-top: 100px;margin-left: -280px}
+		.ysmain .ysbuzou1 .yscont1 .qrshxx .next{width: 158px;height: 43px;background: url(../img/yushou/next.png);position: absolute;margin-left: 0px;margin-top: 180px}
+
+
+/*完成预售*/
+.ysmain .ysbuzou3{width: 1060px;height: 660px;margin-top: 30px;margin-left: 70px;position: absolute;}
+
+.ysmain .ysbuzou3 .ystitle3{width: 1060px;height: 50px;background: #eef6ff;border-radius: 20px}
+.ysmain .ysbuzou3 .ystitle3 .ysitem3{width: 265px;height: 50px;border-radius: 70px;text-align: center;line-height: 50px;font-family: "微软雅黑";font-size: 18px;font-weight: bold;color: #888888;}
+.ysmain .ysbuzou3 .ystitle3 .ysitemsty3{background: #007eff;color: #fff;}
+
+.ysmain .ysbuzou3 .yscont3{width: 1060px;height: 400px;margin-top: 10px;background: url(../img/yushou/chenggong_bg.png) 100px 140px no-repeat;}
+.ysmain .ysbuzou3 .yscont3 .ysfk{width: 1060px;height: 50px;line-height: 50px;text-align: center;font-family: "黑体";font-size: 18px;font-weight: bold;color: #007eff;margin-top: 140px;position: absolute;}
+.ysmain .ysbuzou3 .yscont3 .yszx{width: 100px;height: 50px;position: absolute;margin-left: 840px;margin-top: 180px;font-family: "宋体";font-size: 12px;color: #000;line-height: 50px}
+.ysmain .ysbuzou3 .yscont3 .yszx img{width: 56px;position: absolute;margin-top: -15px}
+.ysmain .ysbuzou3 .yscont3 .yszt{font-weight: normal;margin-top: 180px;font-family: "宋体";font-size: 12px;color: #000;width: 250px;margin-left: 390px;}
+.ysmain .ysbuzou3 .yscont3 .yspic{width: 1060px;height: 186px;position: absolute;margin-top: 420px;font-family: "微软雅黑";font-size: 14px;color: #000;font-weight: bold;}
+.ysmain .ysbuzou3 .yscont3 .yspic img{width: 254px;margin-top: 10px}

@@ -1,0 +1,192 @@
+body{background: #f4f4f4}
+
+/*layout02 商品售卖*/
+    .gdsell{width: 1200px;height: 530px;margin:0 auto;margin-top: 116px;background: #fff;box-shadow: 1px 1px 10px #D5D4D4;}
+    /*图片*/
+        .gdsell .gdPic{width: 467px;height: 530px;}
+        .gdsell .gdPic .datu{width: 368px;height: 368px;margin-top: 28px;margin-left: 52px;}
+        .gdsell .gdPic .datu img{
+        	-webkit-animation:tada 1s .2s ease both;
+    		-moz-animation:tada 1s .2s ease both;}
+    		@-webkit-keyframes tada{
+    		0%{-webkit-transform:scale(1)}
+    		10%,20%{-webkit-transform:scale(0.9) rotate(-3deg)}
+    		30%,50%,70%,90%{-webkit-transform:scale(1.1) rotate(3deg)}
+    		40%,60%,80%{-webkit-transform:scale(1.1) rotate(-3deg)}
+    		100%{-webkit-transform:scale(1) rotate(0)}
+        }
+        .gdsell .gdPic .datu img:hover{box-shadow: 1px 1px 10px #D5D4D4;}
+        .gdsell .gdPic ul{width: 368px;height: 81px;margin-top: 20px;margin-top: 28px;margin-left: 52px;}
+        .gdsell .gdPic li{float: left;width: 81px;height: 81px;}
+        .gdsell .gdPic li img:hover{opacity: 0.8;box-shadow: 1px 1px 10px #D5D4D4;}
+    /*商品发布*/
+        .gdsell .gdsWord{width: 421px;height: 530px;position: relative;}
+        .gdsell .gdsWord  label{font-family: 12px;font-family: "宋体";color:#000;}
+        .gdsell .gdsWord  .lik:hover{color: #007eff;cursor: pointer;}
+        .gdsell .gdsWord .fabu img{position: absolute;margin-top: -10px;margin-left: 252px}
+        .gdsell .gdsWord .fabu img:hover{
+               -webkit-animation:tada 1s .2s ease both;
+    			-moz-animation:tada 1s .2s ease both;}
+    			@-webkit-keyframes tada{
+    			0%{-webkit-transform:scale(1)}
+    			10%,20%{-webkit-transform:scale(0.9) rotate(-3deg)}
+    			30%,50%,70%,90%{-webkit-transform:scale(1.1) rotate(3deg)}
+    			40%,60%,80%{-webkit-transform:scale(1.1) rotate(-3deg)}
+    			100%{-webkit-transform:scale(1) rotate(0)}
+    			}
+    			@keyframes tada{
+    			0%{transform:scale(1)}
+    			10%,20%{transform:scale(0.9) rotate(-3deg)}
+    			30%,50%,70%,90%{transform:scale(1.1) rotate(3deg)}
+    			40%,60%,80%{transform:scale(1.1) rotate(-3deg)}
+    			100%{transform:scale(1) rotate(0)}
+    			}
+    			@-moz-keyframes tada{
+    			0%{-moz-transform:scale(1)}
+    			10%,20%{-moz-transform:scale(0.9) rotate(-3deg)}
+    			30%,50%,70%,90%{-moz-transform:scale(1.1) rotate(3deg)}
+    			40%,60%,80%{-moz-transform:scale(1.1) rotate(-3deg)}
+    			100%{-moz-transform:scale(1) rotate(0)}
+        }
+        .gdsell .gdsWord .fabu{width: 351px;height: 180px;margin-top: 28px;padding: 0 35px;}
+    /*商品预售*/
+        .gdsell .gdsWord .zhushou{width: 351px;height: 140px;padding: 0 35px; }
+        .gdsell .gdsWord .zhushou .timesty{
+    		color:#007eff;
+    		line-height:20px;
+    		font-size:14px;
+    		font-family:Arial;
+            font-weight: bold;
+        }
+        .gdsell .gdsWord .zhushou img{position: absolute;margin-left: 320px;margin-top: -5px;}
+                                
+        .gdsell .gdsWord .zhushou .zhutiao{
+                   width: 65px;
+                   margin-top: -36px;
+                   margin-left: 330px;
+        }
+
+    /*进度条*/
+        .gdsell .gdsWord .zhushou .jingdutiao{width: 351px;height: 60px;}
+                            @keyframes MovingStyle_mark
+                        {
+                        0%   {display: none;}
+                        100% {display: block;}
+                        }
+
+                        @-moz-keyframes MovingStyle_mark /* Firefox */
+                        {
+                        0%   {display: none;}
+                        100% {display: block;}
+                        }
+
+                        @-webkit-keyframes MovingStyle_mark /* Safari 和 Chrome */
+                        {
+                        0%   {display: none;}
+                        100% {display: block;}
+                        }
+
+                        @-o-keyframes MovingStyle_mark /* Opera */
+                        {
+                        0%   {display: none;}
+                        100% {display: block;}
+                        }
+
+        .gdsell .gdsWord .zhushou .jingdutiao .mark{width: 45px;height: 29px;line-height: 29px;text-align: center;font-size: 14px;color:#007eff;background: url(../img/gdDtail/mark.png);margin-top: -9px;margin-left: 178px;
+              animation: MovingStyle_mark 0.5s ease-out 0.5s 1 alternate;
+    /* Firefox: */
+    -moz-animation: MovingStyle_mark 0.5s ease-out 0.5s 1 alternate;
+    /* Safari 和 Chrome: */
+    -webkit-animation: MovingStyle_mark 0.5s ease-out 0.5s 1 alternate;
+    /* Opera: */
+    -o-animation: MovingStyle_mark 0.5s ease-out 0.5s 1 alternate;
+          }
+        .gdsell .gdsWord .zhushou .jingdutiao span{font-size: 11px;color: #ddd;margin-top: 24px;position: absolute;}
+        .gdsell .gdsWord .zhushou .jingdutiao .dicen{width: 351px;height: 16px;background: #dedede;position: absolute;overflow: hidden;}
+                      @keyframes MovingStyle_1
+                        {
+                        0%   {width: 0px;}
+                        100% {}
+                        }
+
+                        @-moz-keyframes MovingStyle_1 /* Firefox */
+                        {
+                        0%   {width: 0px;}
+                        100% {}
+                        }
+
+                        @-webkit-keyframes MovingStyle_1 /* Safari 和 Chrome */
+                        {
+                        0%   {width: 0px;}
+                        100% {}
+                        }
+
+                        @-o-keyframes MovingStyle_1 /* Opera */
+                        {
+                        0%   {width: 0px;}
+                        100% {}
+                        }
+        .gdsell .gdsWord .zhushou .jingdutiao .dicen .prosbar{width: 200px;height: 16px;
+                 animation: MovingStyle_1 1s ease-in-out 0s 1 alternate;
+    /* Firefox: */
+    -moz-animation: MovingStyle_1 1s ease-in-out 0s 1 alternate;
+    /* Safari 和 Chrome: */
+    -webkit-animation: MovingStyle_1 1s ease-in-out 0s 1 alternate;
+    /* Opera: */
+    -o-animation: MovingStyle_1 1s ease-in-out 0s 1 alternate;
+
+       FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#00ccff,endColorStr=#007eff); /*IE*/ 
+background:-moz-linear-gradient(left,#00ccff,#007eff);/*火狐*/ 
+background:-webkit-gradient(linear, 0% 0%, 100% 100%,from(#00ccff), to(#007eff));/*谷歌*/ 
+background-image: -webkit-gradient(linear,left top,right top,color-start(0, #00ccff),color-stop(1, #007eff));/* Safari & Chrome*/ 
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#00ccff', endColorstr='#007eff'); /*IE6 & IE7*/ 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#00ccff', endColorstr='#007eff')"; /* IE8 */ 
+
+        }
+
+    /*预售价格*/
+        .gdsell .gdsWord .yushoujia{width: 351px;height:55px;padding: 0 35px; line-height: 55px}
+        .gdsell .gdsWord .yushoujia span{margin: 0;padding: 0;font-family: "微软雅黑";font-size: 24px;color: #ff4400;font-weight: bold;}
+         .gdsell .gdsWord .yushoujia span:hover{
+        	-moz-transform: scale(1.1);
+    		-moz-transition: all 0.3s ease-in-out 0s;
+    		transform: scale(1.1);
+    		transition: all 0.3s ease-in-out 0s;
+    		-webkit-transform: scale(1.1);
+    		-webkit-transition: all 0.3s ease-in-out 0s;
+    		-o-transform: scale(1.1);
+    		-o-transition: all 0.3s ease-in-out 0s;
+        }	
+    /*购买*/
+        .gdsell .gdsWord .gouma{width: 351px;height:87px;padding: 0 35px; }
+        .gdsell .gdsWord .gouma .item-amount{width: 100px;height: 28px;background: #ededed;text-align: center;position: absolute;margin-top: 30px;border: 1px #ddd solid}
+        .gdsell .gdsWord .gouma .item-amount input{width: 48px;height: 28px;text-align: center;border-left: 1px #ddd solid;border-right: 1px #ddd solid}
+        .gdsell .gdsWord .gouma .item-amount a{color: #403b37;}
+        .gdsell .gdsWord .gouma .item{width: 100px;height: 28px;text-align: center;position: absolute;margin-top: 30px;margin-left: 100px;line-height: 40px}
+        .gdsell .gdsWord .gouma .item label{font-size: 12px}
+        .gdsell .gdsWord .gouma .btn_buy{width: 150px;height: 40px;text-align: center;position: absolute;margin-top: 19px;margin-left: 204px;}
+        .gdsell .gdsWord .gouma .btn_buy input{width: 150px;height: 40px;background: url(../img/gdDtail/goumai.png);}
+
+    /*轮动幻灯*/
+        .gdsell .gdsSlide{width: 259px;border-left: 1px #e0e0e0 solid;height: 530px;}
+        .gdsell .gdsSlide .touxiang{position: absolute;;margin-left: 75px;margin-top: -30px}
+        .gdsell .gdsSlide .touxiang:hover{opacity: 0.8;
+              cursor: pointer;
+            transform: translate(0,-10px);
+            -webkit-transform: translate(0,-10px);
+            -moz-transform: translate(0,-10px);
+            -o-transform: translate(0,-10px);
+            -ms-transform: translate(0,-10px);}
+        .gdsell .gdsSlide .gdsBox{width: 143px;height: 420px;margin-left: 69px;margin-top: 93px;}
+        .gdsell .gdsSlide .gdsBox a{width: 140px;height: 24px}
+        .gdsell .gdsSlide .gdsBox .mingzi{width: 143px;height: 20px;text-align: center;line-height: 20px}
+        .gdsell .gdsSlide .gdsBox .mingzi label{font-family: "宋体";color: black;font-size: 12px}
+        /*.gdsell .gdsSlide .gdsBox .top{width: 140px;height: 24px;background: url(../img/gdDtail/top.png);}
+        .gdsell .gdsSlide .gdsBox .cent{width: 140px;height: 350px;overflow: hidden;}
+        .gdsell .gdsSlide .gdsBox .cent li{width: 140px;height: 98px;margin:15px 0px;}
+        .gdsell .gdsSlide .gdsBox .botm{width: 140px;height: 24px;background: url(../img/gdDtail/btm.png);}*/
+        .gdsell .gdsSlide .gdsBox .gbox{width: 143px;height: 398px;overflow: hidden;}
+        
+/*layout03 商品详情*/
+   .gddtl{width: 1200px;height: 800px;margin:0 auto;margin-top: 20px;background: #fff;box-shadow: 1px 1px 10px #D5D4D4;margin-bottom: 36px}
+   .gddtl .gbox{width: 1160px;height: 740px;margin-left: 20px;margin-top: 30px;position: absolute;}
